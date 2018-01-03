@@ -1,6 +1,8 @@
 import jsonstream.*;
 import senser.Senser;
 
+//Ich bin der Starter
+
 public class OOS2Lab1Starter
 {
     private static double latitude = 48.7433425;
