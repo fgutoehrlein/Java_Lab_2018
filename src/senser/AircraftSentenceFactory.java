@@ -9,7 +9,7 @@ public class AircraftSentenceFactory
 	public ArrayList<AircraftSentence> fromAircraftJson(String jsonAircraftString)
 	{
 	    ArrayList<AircraftSentence> jsonAircraftList = new ArrayList<AircraftSentence>();
-
+	    //TODO: Veraendere das Pattern
 	    Pattern regexPattern = Pattern.compile("\\{(.*?)\\}");
 	    Matcher regexMatcher = regexPattern.matcher(jsonAircraftString);
 
